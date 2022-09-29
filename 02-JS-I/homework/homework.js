@@ -7,7 +7,7 @@ const nuevaString = "Hola";
 const nuevoNum = 55;
 
 // Crea una variable booleana:
-const nuevoBool = false;
+const nuevoBool = 5<7;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -16,7 +16,7 @@ const nuevaResta = 10 - 5 === 5;
 const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === 1.05;
+const nuevoModulo = 21 % 5 === 1.;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -97,16 +97,21 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  return num % 2 == 0;
+ if(num % 2 === 0){
+  return true;
+}else{
+  return false;
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  return (num % 2 == 1);
-}
-
+  if(num % 2 ===1){
+    return true;
+  }else{
+    return false;
+  }
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
@@ -149,15 +154,17 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  function positivo(num){
-    if (num == 0) {
-        return false;
-    }else if(num>0){
-        return "Es positivo";
-        }else {
-        return "Es negativo";
+  
+    if(numero === 0) {
+      return false;
     }
-}
+    else if(numero > 0) {
+      return "Es positivo";
+    }
+    else {
+      return "Es negativo";
+    }
+  }
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
@@ -265,4 +272,4 @@ module.exports = {
   areaDelTriangulo,
   deEuroAdolar,
   esVocal,
-};       }
+}
