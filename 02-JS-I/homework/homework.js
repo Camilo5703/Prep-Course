@@ -102,7 +102,7 @@ function esPar(num) {
 }else{
   return false;
 }
-
+}
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
@@ -112,11 +112,12 @@ function esImpar(num) {
   }else{
     return false;
   }
+}
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  return Math.pow(mum,2);
+  return Math.pow(num,2);
 }
 
 function elevarAlCubo(num) {
@@ -177,7 +178,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  return nomre + " " + apellido
+  return nombre + " " + apellido
   
 }
 
@@ -185,7 +186,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return "Hola  " + nombre + "!";
+  return "Hola " + nombre + "!";
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
