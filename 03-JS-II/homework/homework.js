@@ -70,10 +70,7 @@ function colors(color) {
      default: return  "Color not found";
 }
 }
-function esDiezOCinco(numero) {
-  // Devuelve "true" si "numero" es 10 o 5
-  // De lo contrario, devuelve "false"
-  // Tu código:
+
   function esDiezOCinco(numero) {
     // Devuelve "true" si "numero" es 10 o 5
     // De lo contrario, devuelve "false"
@@ -85,7 +82,10 @@ function estaEnRango(numero) {
   // Devuelve "true" si "numero" es menor que 50 y mayor que 20
   // De lo contrario, devuelve "false"
   // Tu código:
+return numero>20 && numero<50;
+
 }
+
 
 function esEntero(numero) {
   // Devuelve "true" si "numero" es un entero (int/integer)
@@ -167,4 +167,5 @@ module.exports = {
   tablaDelSeis,
   tieneTresDigitos,
   doWhile
-};
+}
+}
