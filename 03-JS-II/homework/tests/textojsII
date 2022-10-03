@@ -1,0 +1,4 @@
+for es una  accion que se repite hasta lograr lo que buscamos, y cada vez que se repite su valor se va incrementando.
+&&  este operador se llama y, nos da un true si todas las condiciones se cumplen, con una condicion que sea falsa nos da false
+|| esta condicion se llama o, y nos da un true con el solo hecho de que 1 sola o varias condiciones se cumplan. Y nos da falso si ninuna condicion se cumple.
+! este operador se llama no, y nos da lo contrario a lo que se expresa, si va antes de un igual = significa que no es igual 
