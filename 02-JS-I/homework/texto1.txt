@@ -1,0 +1,7 @@
+VARIABLES : Es algo que sirve para guardar datos, que podemos usar en cualquier momento.
+SRINGS:     Son datos que se leen como texto, y se deben de escribir entre comillas.
+FUNCIONES:  Es un grupo de ordenes que hacen cumplir una tarea, o nos dan un resultado.
+ARGUMENTOS: Son los valores que se le dan a una funcion.
+RETURN:     Nos devuelve un resultado, y a la vez termina la ejecucion de la funcion.
+DECLARACIONES IF: Es la que ejecuta una accion si se cumple algo.
+VALORES BOLEANOS: Es un valor que se le da a una condicion de que sea verdadera o falsa.
