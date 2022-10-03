@@ -70,13 +70,13 @@ function colors(color) {
      default: return  "Color not found";
 }
 }
-
-  function esDiezOCinco(numero) {
-    // Devuelve "true" si "numero" es 10 o 5
-    // De lo contrario, devuelve "false"
-    // Tu código:
-  return 10===numero||5===numero;
+function esDiezOCinco(numero) {
+  // Devuelve "true" si "numero" es 10 o 5
+  // De lo contrario, devuelve "false"
+  // Tu código:
+   return 10===numero||5===numero;
 }
+
 
 function estaEnRango(numero) {
   // Devuelve "true" si "numero" es menor que 50 y mayor que 20
@@ -95,6 +95,7 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
+  return numero%1===0;
 }
 
 function fizzBuzz(numero) {
@@ -167,5 +168,4 @@ module.exports = {
   tablaDelSeis,
   tieneTresDigitos,
   doWhile
-}
 }
